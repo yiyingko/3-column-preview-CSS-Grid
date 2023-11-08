@@ -1,0 +1,128 @@
+/*general*/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Lexend+Deca&family=Manrope:wght@500;700&family=Montserrat:wght@500;700&family=Overpass:wght@400;700&display=swap');
+
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
+/*main*/
+.container {
+    margin-top: 200px;
+    display: grid;
+    place-items: center;
+}
+
+.grid {
+    width: 900px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-rows: 1fr .5fr 2fr 1fr;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.icon {
+    width: 72px;
+    height: 48px;
+    margin-top: 40px;
+}
+
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+    Font-size: 15px;
+    line-height: 1.6em;
+}
+
+.btn {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border: solid 2px white;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+}
+
+
+.one {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.btn-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-1:hover {
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+
+.two {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.btn-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-2:hover {
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.three {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.btn-3 {
+    color: hsl(179, 100%, 13%);
+
+}
+
+.btn-3:hover {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+
+
+/*footer*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
