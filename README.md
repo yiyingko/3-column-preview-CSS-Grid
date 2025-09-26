@@ -7,18 +7,15 @@ A responsive 3-column card layout showcasing Sedans, SUVs, and Luxury rentals. B
 
 ## 🧰 Tech
 - HTML5, CSS3
-- CSS Grid + Flexbox
-- Mobile-first workflow
+- CSS Grid
 
 ## 🎯 What I practiced
 - Using CSS Grid for multi-column design
-- Applying Flexbox for alignment
 - Building reusable utility classes
-- Styling with hover/focus states
+- Styling with hover states
 
 ## ♿ Accessibility
 - Semantic HTML structure (`<section>`, `<h2>`, `<p>`, `<a>`)
-- Visible `:focus-visible` outlines for links
 - Descriptive link text (“Learn More”)
 - Proper heading hierarchy
 
@@ -29,12 +26,9 @@ Each card (Sedan, SUV, Luxury) contains:
 - Description
 - A styled CTA link
 
-Cards adapt from a vertical stack on mobile → 3-column layout on desktop via CSS Grid.
-
 ## 📈 Performance
 - Pure HTML/CSS, no JavaScript
 - Lightweight SVG icons
-- Mobile-first responsive design
 - Minimal external dependencies
 
 ## 🔧 Local dev
