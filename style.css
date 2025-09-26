@@ -1,7 +1,5 @@
 /*general*/
-
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Lexend+Deca&family=Manrope:wght@500;700&family=Montserrat:wght@500;700&family=Overpass:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 body {
     background-color: hsl(0, 0%, 95%);
@@ -9,16 +7,14 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-
-
 /*main*/
-.container {
+.site-container {
     margin-top: 200px;
     display: grid;
     place-items: center;
 }
 
-.grid {
+.cards {
     width: 900px;
     height: 400px;
     display: grid;
@@ -26,7 +22,7 @@ body {
     border-radius: 10px;
 }
 
-.grid-item {
+.card {
     display: grid;
     grid-template-rows: 1fr .5fr 2fr 1fr;
     padding-left: 45px;
@@ -35,31 +31,29 @@ body {
     padding-bottom: 5px;
 }
 
-.icon {
+.card__icon {
     width: 72px;
     height: 48px;
     margin-top: 40px;
 }
 
-
-h1 {
+.card__title {
     color: hsl(0, 0%, 95%);
-    font-family: Big Shoulders Display;
+    font-family: 'Big Shoulders Display';
     font-weight: 700;
     text-transform: uppercase;
     font-size: 40px;
 }
 
-
-p {
+.card__text {
     color: hsla(0, 0%, 100%, 0.75);
-    font-family: Lexend Deca;
+    font-family: 'Lexend Deca';
     font-weight: 400;
-    Font-size: 15px;
+    font-size: 15px;
     line-height: 1.6em;
 }
 
-.btn {
+.button {
     background-color: white;
     width: 150px;
     height: 50px;
@@ -69,52 +63,49 @@ p {
     place-items: center;
 }
 
-
-.one {
+.card--sedan {
     background-color: hsl(31, 77%, 52%);
     border-radius: 10px 0 0 10px;
 }
 
-.btn-1 {
+.button--sedan {
     color: hsl(31, 77%, 52%);
 }
 
-.btn-1:hover {
+.button--sedan:hover {
     color: white;
     background-color: hsl(31, 77%, 52%);
     cursor: pointer;
 }
 
-.two {
+.card--suv {
     background-color: hsl(184, 100%, 22%);
 }
 
-.btn-2 {
+.button--suv {
     color: hsl(184, 100%, 22%);
 }
 
-.btn-2:hover {
+.button--suv:hover {
     color: white;
     background-color: hsl(184, 100%, 22%);
     cursor: pointer;
 }
 
-.three {
+.card--luxury {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 10px 10px 0;
 }
 
-.btn-3 {
+.button--luxury {
     color: hsl(179, 100%, 13%);
-
 }
 
-.btn-3:hover {
+.button--luxury:hover {
     color: white;
     background-color: hsl(179, 100%, 13%);
     cursor: pointer;
 }
-
 
 /*footer*/
 .attribution {
